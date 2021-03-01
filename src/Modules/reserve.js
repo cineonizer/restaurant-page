@@ -33,7 +33,7 @@ const renderReserve = () => {
 
     createOptions(select, 'sunday', 'Sunday: Closed');
     createOptions(select, 'monday', 'Monday: Closed');
-    createOptions(select, 'tuesday', 'Tueday: 9:00 AM - 3:00 PM');
+    createOptions(select, 'tuesday', 'Tuesday: 9:00 AM - 3:00 PM');
     createOptions(select, 'wednesday', 'Wednesday: 9:00 AM - 3:00 PM');
     createOptions(select, 'thursday', 'Thursday: 9:00 AM - 3:00 PM');
     createOptions(select, 'friday', 'Friday: 9:00 AM -  3:00 PM');
