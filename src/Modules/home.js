@@ -19,4 +19,4 @@ const renderHome = () => {
     return home;
 }
 
-export {renderHome};
+export {renderHome}

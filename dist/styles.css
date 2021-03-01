@@ -21,11 +21,22 @@ body {
 .header-nav {
     display: flex;
     justify-content: space-evenly;
-    min-width: 250px;
+    min-width: 350px;
 }
 
 .header-nav div {
+    color: rgb(218, 174, 174);
+    font-size: large;
     cursor: pointer;
+    transition: box-shadow 0.2s linear;
+}
+
+.header-nav div:hover {
+    box-shadow: 0 3px 0 0 rgb(218, 174, 174);
+}
+
+.home-container {
+    transition: opacity 5s cubic-bezier(.42,0,.34,1.01);
 }
 
 .home-image {
@@ -34,8 +45,9 @@ body {
     left: 50%;
     transform: translate(-50%, -48.5%);
     width: 80%;
+    height: auto;
     max-width: 960px;
-    max-height: 100%;
+    max-height: auto;
 }
 
 .home-text {
@@ -56,7 +68,182 @@ body {
     left: 50%;
     transform: translate(-50%, -48.5%);
     color: rgb(243, 243, 243);
-    background-color: rgb(218, 174, 174, 0.5);
+    background-color: rgb(218, 174, 174);
     font-family: 'Heebo', sans-serif;
+}
+
+.menu-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(218, 174, 174);
+    font-family: 'Heebo', sans-serif;
+    white-space: nowrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 44%;
+    max-width: 100%;
+    padding-right: 15px;
+    transition: opacity 1s linear;
+}
+
+.menu-container p1 {
+    font-size: x-large;
+}
+
+.menu-text dd {
+    margin-bottom: 1em;
+}
+
+::-webkit-scrollbar {
+    scroll-behavior: smooth;
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(243, 243, 243);; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(218, 174, 174, 0.75);
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(218, 174, 174, 1); 
+}
+
+.reserve-container {
+    width: 100%;
+    min-width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    color: rgb(218, 174, 174);
+    font-family: 'Heebo', sans-serif;
+}
+
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 75%;
+}
+
+#map {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    border: none;
+}
+
+hr {
+    border: 1px solid rgb(218, 174, 174);
+}
+
+#open-hours {
+    background-color: rgb(243, 243, 243);
+    color: rgb(218, 174, 174);
+    font-family: 'Heebo', sans-serif;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-container {
+    height: 350px;
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(218, 174, 174);
+    padding: 0 15px;
+    box-shadow: 0px 2px 5px rgba(151, 146, 153, 0.3);
+}
+
+.title-container{
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.price {
+    font-size: 12px;
+}
+
+.guest-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(218, 174, 174);
+    height: 50px;
+    padding: 0 10px;
+    user-select: none;
+}
+
+.form-container button {
+    border: none;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+    color: rgb(193, 116, 116);
+    outline: none;
+}
+
+#date {
+    height: 50px;
+    border: 1px solid rgb(218, 174, 174);
+    background: transparent;
+    padding: 0 10px;
+    color: rgb(218, 174, 174);
+    font-family: 'Heebo', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+
+#reservation-hours {
+    height: 50px;
+    border: 1px solid rgb(218, 174, 174);
+    background: transparent;
+    padding: 0 10px;
+    color: rgb(218, 174, 174);
+    font-family: 'Heebo', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+
+#submit {
+    height: 50px;
+    border: 1px solid rgb(218, 174, 174);
+    background: transparent;
+    color: rgb(218, 174, 174);
+    font-family: 'Heebo', sans-serif;
+    cursor: pointer;
+    outline: none;
+    font-size: large;
+    transition: background-color .2s linear, color .2s linear;
+}
+
+#submit:hover {
+    background-color: rgb(218, 174, 174);
+    color: rgb(243, 243, 243);
 }
 
