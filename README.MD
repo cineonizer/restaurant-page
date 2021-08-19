@@ -24,7 +24,7 @@ Create a Tic Tac Toe game.
 ## Learning Outcomes
 
 * Creating classes in JavaScript and learning about getter and setter methods.
-* Knowing the history of Javascript and naming of each versions.
+* Knowing the history of JavaScript and naming of each version.
 * Utilizing the modules feature of ECMAScript 2015/ES6.
 * Node package manager (NPM) to access a repository of plugins and libraries.
 * The setup and usage of Webpack to write code in modules for organization.
