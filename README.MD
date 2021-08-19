@@ -1,6 +1,5 @@
 # Restaurant Page
 
-
 This is the [Restaurant Page](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page) project from the curriculum of [The Odin Project's Full Stack JavaScript Path](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript).
 
 #### What is The Odin Project?
