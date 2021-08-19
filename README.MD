@@ -27,4 +27,4 @@ Render a restaurant homepage with webpack.
 * Utilizing the modules feature of ECMAScript 2015/ES6.
 * Node package manager (NPM) to access a repository of plugins and libraries.
 * The setup and usage of Webpack to write code in modules for organization.
-* First and familiarity with CSS transitions.
+* First time usage and familiarity with CSS transitions.
