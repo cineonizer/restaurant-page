@@ -13,7 +13,7 @@ Click [here](https://cineonizer.github.io/restaurant-page/) for a live preview o
 
 ## Goal
 
-Create a Tic Tac Toe game.
+Render a restaurant homepage with webpack.
 
 ## Built With
 
