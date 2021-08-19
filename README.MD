@@ -1,3 +1,31 @@
-A restaurant page using HTML, CSS, and JavaScript from [The Odin Project's Full Stack JavaScript Path](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page).
+# Restaurant Page
 
-Click [here](https://cineonizer.github.io/restaurant-page/) for a live preview.
+
+This is the [Restaurant Page](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page) project from the curriculum of [The Odin Project's Full Stack JavaScript Path](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript).
+
+#### What is The Odin Project?
+
+[The Odin Project](https://www.theodinproject.com/about) is a free open-source coding curriculum that helps students learn the necessary skills to become a full stack developer from scratch. The curriculum is self-paced and makes use of online resources, such as tutorials, blogs, videos, and official documentation. Students learn from lessons and modules and build portfolio-worthy projects to master their skills in web development.
+
+## Live Preview
+
+Click [here](https://cineonizer.github.io/restaurant-page/) for a live preview of my project.
+
+## Goal
+
+Create a Tic Tac Toe game.
+
+## Built With
+
+* HTML
+* CSS
+* JavaScript
+
+## Learning Outcomes
+
+* Creating classes in JavaScript and learning about getter and setter methods.
+* Knowing the history of Javascript and naming of each versions.
+* Utilizing the modules feature of ECMAScript 2015/ES6.
+* Node package manager (NPM) to access a repository of plugins and libraries.
+* The setup and usage of Webpack to write code in modules for organization.
+* First and familiarity with CSS transitions.
